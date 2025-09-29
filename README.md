@@ -99,7 +99,7 @@ Please review your profile details.
 
 ## 👥 TEAM  
 
-Smart India Hackathon 2025 – *Team Name*  
+Smart India Hackathon 2025 – *TEAM CODEHEX*  
 
 
 - Member 1: ISMAIL ALI MOHAMMED
