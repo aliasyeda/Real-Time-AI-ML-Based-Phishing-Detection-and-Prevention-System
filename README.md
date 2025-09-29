@@ -1,13 +1,13 @@
-# 🛡️ Phishing Shield  
+# 🛡️   
 
-**Smart India Hackathon 2024**  
+**Smart India Hackathon 2025**  
 **Problem Statement: Real-Time AI/ML-Based Phishing Detection and Prevention System (PS #25159)**  
 
 ---
 
 ## 📌 OVERVIEW  
 Phishing attacks are one of the most common cyber threats.  
-**Phishing Shield** is a **real-time AI/ML phishing detection and prevention system** built as a **Streamlit web application**.  
+ **Real-time AI/ML phishing detection and prevention system** built as a **Streamlit web application**.  
 
 Our logistic regression model (with TF-IDF) achieves **~99% accuracy** and classifies input as:  
 - ✅ Safe  
@@ -48,6 +48,8 @@ Unlike Gmail or VirusTotal, this system is **explainable and educational**: it s
 ## 📂 PROJECT STRUCTURE  
 
 Real-Time AI/ML-Based Phishing Detection and Prevention System/
+
+
 ├── app.py # Streamlit App
 ├── phishing_combined_model.pkl # Trained Logistic Regression Model
 ├── vectorizer_vocab.json # Lightweight TF-IDF Vocabulary
@@ -60,21 +62,27 @@ Real-Time AI/ML-Based Phishing Detection and Prevention System/
 ## 🎯 DEMO SAMPLES  
 
 **✅ Safe Email Example**
+
 Your Amazon order has been shipped:
+
 https://www.amazon.in/order
 
 text
 
 
 **🚨 Phishing Email Example**
+
 Urgent! Your PayPal account is limited, verify here:
+
 http://secure-login-paypai.com
 
 text
 
 
 **⚠ Suspicious Email Example**
+
 We detected unusual activity in your account.
+
 Please review your profile details.
 
 text
@@ -96,12 +104,12 @@ text
 Smart India Hackathon 2025 – *Team Name*  
 
 
-Member 1: ISMAIL ALI MOHAMMED
-Member 2: MA KHADER SHAREEF MADANI
-Member 3: SYED ATHER ALI
-Member 4: MEER HYDER SIDDIQUI
-Member 5: SHREYA TADAKALA
-Member 6: SYEDA ALIA SAMIA
+- Member 1: ISMAIL ALI MOHAMMED
+- Member 2: MA KHADER SHAREEF MADANI
+- Member 3: SYED ATHER ALI
+- Member 4: MEER HYDER SIDDIQUI
+- Member 5: SHREYA TADAKALA
+- Member 6: SYEDA ALIA SAMIA
 
 ---
 ## 💡 TAGLINE  
