@@ -1,4 +1,4 @@
-# 🛡️   
+# 🛡️ Real-Time AI/ML-Based Phishing Detection and Prevention System
 
 **Smart India Hackathon 2025**  
 **Problem Statement: Real-Time AI/ML-Based Phishing Detection and Prevention System (PS #25159)**  
@@ -46,18 +46,16 @@ Unlike Gmail or VirusTotal, this system is **explainable and educational**: it s
 ---
 
 ## 📂 PROJECT STRUCTURE  
-
-Real-Time AI/ML-Based Phishing Detection and Prevention System/
-
-
-├── app.py # Streamlit App
-├── phishing_combined_model.pkl # Trained Logistic Regression Model
-├── vectorizer_vocab.json # Lightweight TF-IDF Vocabulary
-├── phishing_model_training.ipynb # Training Notebook
-├── requirements.txt # Dependencies
-├── sample_safe_email.txt # Demo (Safe Email)
-├── sample_phish_email.txt # Demo (Phishing Email)
-└── sample_suspicious_email.txt # Demo (Suspicious Email)
+Real-Time-AI-ML-Based-Phishing-Detection-and-Prevention-System
+│
+├── app.py # Streamlit web app
+├── phishing_combined_model.pkl # Trained ML model (Logistic Regression)
+├── vectorizer_vocab.json # Lightweight TF-IDF vocabulary for deployment
+├── phishing_model_training.ipynb # Jupyter Notebook (model training & saving files)
+├── requirements.txt # List of dependencies for Streamlit Cloud deployment
+├── sample_safe_email.txt # Demo input file: Safe email
+├── sample_phish_email.txt # Demo input file: Phishing email
+└── sample_suspicious_email.txt # Demo input file: Suspicious emai
 
 ## 🎯 DEMO SAMPLES  
 
@@ -67,7 +65,7 @@ Your Amazon order has been shipped:
 
 https://www.amazon.in/order
 
-text
+
 
 
 **🚨 Phishing Email Example**
@@ -76,7 +74,7 @@ Urgent! Your PayPal account is limited, verify here:
 
 http://secure-login-paypai.com
 
-text
+
 
 
 **⚠ Suspicious Email Example**
@@ -85,7 +83,7 @@ We detected unusual activity in your account.
 
 Please review your profile details.
 
-text
+
 
 
 ---
