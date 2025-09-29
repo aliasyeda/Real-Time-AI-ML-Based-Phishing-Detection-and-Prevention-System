@@ -1,65 +1,100 @@
-# Real-Time-AI-ML-Based-Phishing-Detection-and-Prevention-System
- Phishing Shield
-Smart India Hackathon 2024
-Problem Statement: Real-Time AI/ML-Based Phishing Detection and Prevention System (PS #25159)
+# 🛡️ Phishing Shield  
 
-📌 Overview
-Phishing emails and malicious URLs are one of the most common cyber threats.
-Our project Phishing Shield is a real-time AI/ML‑based phishing detection and prevention system that not only detects phishing attempts but also educates users to recognize them.
+**Smart India Hackathon 2024**  
+**Problem Statement: Real-Time AI/ML-Based Phishing Detection and Prevention System (PS #25159)**  
 
-We built a Streamlit web application powered by a Logistic Regression model with TF‑IDF features (~99% accuracy).
-The system classifies content as:
+---
 
-✅ Safe
-⚠ Suspicious
-🚨 Phishing
-Unlike Gmail or VirusTotal, our system is explainable and educational:
+## 📌 OVERVIEW  
+Phishing attacks are one of the most common cyber threats.  
+**Phishing Shield** is a **real-time AI/ML phishing detection and prevention system** built as a **Streamlit web application**.  
 
-Highlights phishing keywords.
-Shows risky domains.
-Displays prediction confidence scores.
-Trains users with cybersecurity tips and a quiz module.
-🚀 Features
-AI/ML Detection
+Our logistic regression model (with TF-IDF) achieves **~99% accuracy** and classifies input as:  
+- ✅ Safe  
+- ⚠ Suspicious  
+- 🚨 Phishing  
 
-Logistic Regression on combined phishing emails + phishing URLs datasets.
-Hybrid approach with whitelist rules for trusted domains (Amazon, Google, Microsoft).
-Web App (Streamlit)
+Unlike Gmail or VirusTotal, this system is **explainable and educational**: it shows keywords, risky domains, confidence scores, and provides awareness training through a quiz.  
 
-🛡️ Detector → Paste text/URL or upload .txt file → Detect phishing attempts
-📊 Dashboard → Stats with bar chart + donut chart
-💡 Awareness Quiz → Cybersecurity tips + quiz for user learning
-Explainable AI
+---
 
-Confidence score displayed
-Suspicious keywords highlighted
-Fake domains flagged
-UI/UX Enhancements
+## 🚀 FEATURES  
 
-Light/Dark Mode toggle
-Color-coded cards (Green = Safe, Yellow = Suspicious, Red = Phish)
-Balloons 🎈 on safe detection
-🛠️ Tech Stack
-Python 3.10+
-Libraries: Streamlit, scikit-learn, pandas, numpy, plotly
-📂 Project Structure
-app.py → Streamlit web app
-phishing_combined_model.pkl → Trained ML model
-vectorizer_vocab.json → TF‑IDF vocabulary (lightweight)
-phishing_model_training.ipynb → Training notebook
-requirements.txt → Dependencies
-Sample .txt files for demo emails
-🎯 Sample Demos
-✅ Safe Email: “Your Amazon order has been shipped.” → Safe
-🚨 Phishing Email: “Urgent! Verify account at http://secure-paypai.com” → Phish
-⚠ Suspicious Email: “Please review your profile information.” → Suspicious
-🚀 Future Scope
-Gmail/Outlook plugin for auto-spam filtering
-Browser extension for real-time URL checks
-Multi-language phishing training
-Enterprise dashboard for monitoring phishing trends
-👥 Team
-Smart India Hackathon 2025 — CODEHEX
+- **AI / ML Model (scikit-learn)**  
+  - Logistic Regression trained on phishing **emails + URLs** datasets  
+  - Hybrid rules with trusted domains to reduce false positives  
+
+- **Web App (Streamlit)**  
+  - 🛡️ Detector: Paste text/URL or upload `.txt` file  
+  - 📊 Dashboard: Stats with bar chart + donut chart  
+  - 💡 Awareness Quiz: Tips + 5-question awareness quiz  
+
+- **Explainable & User-Friendly**  
+  - Confidence score (%)  
+  - Highlight suspicious keywords  
+  - Analysis of domain names  
+  - Light/Dark mode toggle, color-coded result cards  
+
+---
+
+## 🛠️ TECH STACK  
+
+- **Language:** Python 3.10+  
+- **Libraries:**  
+  - `streamlit`, `scikit-learn`, `pandas`, `numpy`, `plotly`  
+
+---
+
+## 📂 PROJECT STRUCTURE  
+
+Real-Time AI/ML-Based Phishing Detection and Prevention System/
+├── app.py # Streamlit App
+├── phishing_combined_model.pkl # Trained Logistic Regression Model
+├── vectorizer_vocab.json # Lightweight TF-IDF Vocabulary
+├── phishing_model_training.ipynb # Training Notebook
+├── requirements.txt # Dependencies
+├── sample_safe_email.txt # Demo (Safe Email)
+├── sample_phish_email.txt # Demo (Phishing Email)
+└── sample_suspicious_email.txt # Demo (Suspicious Email)
+
+## 🎯 DEMO SAMPLES  
+
+**✅ Safe Email Example**
+Your Amazon order has been shipped:
+https://www.amazon.in/order
+
+text
+
+
+**🚨 Phishing Email Example**
+Urgent! Your PayPal account is limited, verify here:
+http://secure-login-paypai.com
+
+text
+
+
+**⚠ Suspicious Email Example**
+We detected unusual activity in your account.
+Please review your profile details.
+
+text
+
+
+---
+
+## 🚀 FUTURE SCOPE  
+
+- Gmail/Outlook integration → automatically move phishing mails to spam  
+- Browser extension for **real-time URL scanning**  
+- Multi-language phishing awareness training modules  
+- Enterprise dashboards for monitoring phishing attempts  
+
+---
+
+## 👥 TEAM  
+
+Smart India Hackathon 2025 – *Team Name*  
+
 
 Member 1: ISMAIL ALI MOHAMMED
 Member 2: MA KHADER SHAREEF MADANI
@@ -68,5 +103,7 @@ Member 4: MEER HYDER SIDDIQUI
 Member 5: SHREYA TADAKALA
 Member 6: SYEDA ALIA SAMIA
 
-💡 Tagline
-Phishing Shield – Detect ✅, Prevent ⚠, Educate 💡.
+---
+## 💡 TAGLINE  
+
+**“Real-Time AI/ML-Based Phishing Detection and Prevention System – Detect ✅ | Prevent ⚠ | Educate 💡”**
