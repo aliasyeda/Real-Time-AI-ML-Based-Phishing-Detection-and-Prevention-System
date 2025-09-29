@@ -1,0 +1,13 @@
+Subject: Urgent Action Required - Verify Your Account
+
+Dear Customer,
+
+We detected suspicious activity in your bank account. To avoid suspension of your account,
+please click the link below and verify your login details immediately:
+
+http://secure-banklogin-update.com/verify
+
+Failure to act within 24 hours will result in account closure.
+
+Thank you,
+Security Department

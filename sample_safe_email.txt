@@ -1,0 +1,13 @@
+Subject: Your Amazon Order Confirmation
+
+Hello [Customer Name],
+
+Thank you for shopping with us. Your order #123-456 has been shipped and will arrive soon.
+To track your package, please visit your order history at Amazon:
+
+https://www.amazon.in/gp/css/order-history
+
+If you have any questions, please contact Amazon Support directly.
+
+Thanks,
+Amazon Team
